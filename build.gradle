@@ -22,7 +22,7 @@ dependencies {
 }
 
 test {
-        String tags = System.getProperty("tags") != null ? System.getProperty("tags") : "smoke"
+        String tags = System.getProperty("tags") != null ? System.getProperty("tags") : "search"
         useJUnitPlatform {
             includeTags tags
         }
